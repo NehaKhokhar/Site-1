@@ -1,0 +1,107 @@
+.navigation{display:flex;
+            justify-content:space-between;
+            background-color:rgb(0,0,0,0.5);
+            padding:0px;
+            font-size:20px;}
+.navigation div{color:white;
+                font-size:30px;}
+.navigation a{text-decoration:none;
+             color:white;
+             padding-right:0;
+             text-transform:upper case;
+             font-size:10px;
+            text-transform:uppercase;}
+body{margin:0;
+     padding:0px;
+     font-family:"Roboto"
+     }
+.headingtext{text-decoration:none;
+              padding-left:120px;
+              padding-top:160px;
+              font-size:40px;
+              color:white;}
+    header{ background-image:url("../images/back.jpg");
+           background-repeat: no-repeat;
+           background-position:top;
+           background-color:rgba(0,0,0,0.5);
+           background-blend-mode:multiply;
+           background-size:cover;
+           }
+.lowertext{padding-left:120;
+            color:white;
+            font-size:20px;}
+.hrcode{margin:20px;
+        width:60%;
+        margin-top:40px;
+        padding-left:20px;
+        padding-right:10px;
+        color:white;}
+.logo{display:flex;
+      column-gap:50px;
+      padding-left:120px;
+      width:40px;
+      height:40px;}
+.features{padding-left:120px;
+          padding-right:120px;
+          padding-top:80px;}
+.gridClass{display:grid;
+          grid-template-columns:auto auto auto auto auto;
+          }
+.divider{border:1px solid lightgrey;
+      width: 0;
+         height:100%;}
+           
+.bold{color:blue;
+      font-size:20px;}
+.text{color:black;
+      font-size:10px;}
+.image{display:flex;
+      column-gap:20px;
+      padding-top:100px;
+      padding-left:100px;
+      padding-right:120px;
+      width:200px;
+      height:200px;}
+.bluearea{
+      height:400px;
+      width: auto;
+      margin:-100px;
+      background-color:navy;
+}
+.bluetext{
+      padding-left: 220px;
+      padding-top:200px}
+.bigtext{font-size:30px;
+      text-transform:uppercase;
+      color:white;
+         }
+.smalltext{color:white;
+          font-size:15px;}
+.blueareaicon{
+      display:flex;
+      width: 100px;
+      height:100px;
+      margin-left:70%;
+      margin-top:-30px;
+}
+.bestimage{width:1000px;
+           height:700px;
+           margin-top:100px;
+           margin-left:0px;
+      display:flex;}
+.about{font-size:35px;
+      color:navy;
+      padding-left:50px;
+      padding-top:30px;
+}
+.refer{font-size:15px;
+      color:lightgrey;
+      padding-left:50px;
+      padding-top:20px;
+}
+.bokmark{padding-left:50px;
+         padding-top:10px;
+         width:1px;
+         height:1px;
+
+}
